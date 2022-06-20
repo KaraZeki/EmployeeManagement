@@ -1,0 +1,12 @@
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\bin\Debug\net5.0\Monovi.Model.deps.json
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\bin\Debug\net5.0\Monovi.Model.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\bin\Debug\net5.0\ref\Monovi.Model.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\bin\Debug\net5.0\Monovi.Model.pdb
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.AssemblyInfoInputs.cache
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.AssemblyInfo.cs
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.csproj.CoreCompileInputs.cache
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\ref\Monovi.Model.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.pdb
+C:\Users\zeki.kara\source\Monovi\Monovi.Model\obj\Debug\net5.0\Monovi.Model.csproj.AssemblyReference.cache

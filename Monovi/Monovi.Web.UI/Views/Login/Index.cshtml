@@ -1,0 +1,56 @@
+﻿@model Monovi.Model.Model.UserViewModel
+
+@{ ViewData["Title"] = "Index"; }
+@{
+    Layout = "";
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="w-25 container-fluid ">
+
+    <div class="align-items-center mt-lg-5">
+        <main class="form-signin">
+
+
+            <form class="m-t" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-action="Login" asp-controller="Login">
+
+                @*<img class="mb-4 w-10" src="https://www.konusarakogren.com/images/assets/img/logo.png" alt="" width="72" height="57">*@
+
+                <div class="container-fluid align-items-center">
+                    <img class="mb-4 w-10 align-content-center" src="~/Files/Images/monovi.jfif" alt="" width="120" height="99">
+                </div>
+
+
+                <h1 class="h3 mb-3 fw-normal">Giriş yap</h1>
+
+                <div class="form-floating">
+                    <input type="email" asp-for="Email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password"  asp-for="Password"  class="form-control" id="floatingPassword"   placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+                @if (TempData["Message"] != null)
+                {
+            <div class="checkbox mb-3">
+                <div class="alert alert-danger" role="alert">@TempData["Message"] </div>
+            </div>  }
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Giriş</button>
+
+            </form>
+        </main>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

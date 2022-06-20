@@ -1,0 +1,40 @@
+﻿ @model Monovi.Web.UI.Models.UserListModel
+
+<div class="text-center">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Delete</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <th scope="row">@user.Id</th>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>
+                        <form action="/Admin/DeleteUser" method="post" style="display:inline;">
+                            <input type="hidden" name="Id" value="@user.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="/Admin/EditUser" method="get" style="display:inline;">
+                            <input type="hidden" name="Id" value="@user.Id" />
+                            <button type="submit" class="btn btn-success btn-sm">Edit</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form action="/Admin/AddUser" method="get" style="display:inline;">
+        <button type="submit" class="btn btn-primary btn-sm ml-auto">Create User </button>
+    </form>
+</div>

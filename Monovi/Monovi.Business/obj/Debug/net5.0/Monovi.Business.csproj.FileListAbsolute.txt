@@ -1,0 +1,17 @@
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.Business.deps.json
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.Business.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\ref\Monovi.Business.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.Business.pdb
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.DataAccess.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.DataAccess.pdb
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.csproj.AssemblyReference.cache
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.AssemblyInfoInputs.cache
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.AssemblyInfo.cs
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.csproj.CoreCompileInputs.cache
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.csproj.CopyComplete
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\ref\Monovi.Business.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\obj\Debug\net5.0\Monovi.Business.pdb
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.Model.dll
+C:\Users\zeki.kara\source\Monovi\Monovi.Business\bin\Debug\net5.0\Monovi.Model.pdb
